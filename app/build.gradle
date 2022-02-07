@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig.manifestPlaceholders = [
-            "appAuthRedirectScheme": "com.okta.example"
+            "appAuthRedirectScheme": "${CLI_OKTA_REVERSE_DOMAIN}"
     ]
 
     buildTypes {
