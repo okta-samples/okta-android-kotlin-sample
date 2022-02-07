@@ -1,0 +1,11 @@
+{
+  "client_id": "${clientId}",
+  "redirect_uri": "com.okta.example:/callback",
+  "end_session_redirect_uri": "com.okta.example:/",
+  "scopes": [
+    "openid",
+    "profile",
+    "offline_access"
+  ],
+  "discovery_uri": "https://${yourOktaDomain}"
+}
