@@ -1,8 +1,14 @@
-# Okta + Android (Java) & Okta-Hosted Login Page Example
+# Okta + Android (Kotlin) & Okta-Hosted Login Page Example
 
-This sample shows how to use the Okta Android SDK to sign a user in to an Android application built in Java. The process uses Authorization Code Flow + PKCE, where the user is redirected to Okta for authentication. After the user authenticates, they are redirected back to the application with an authorization code, which is exchanged for an ID token and access token.
+This sample shows how to use the Okta Android SDK to sign a user in to an Android application built in Kotlin. The process uses Authorization Code Flow + PKCE, where the user is redirected to Okta for authentication. After the user authenticates, they are redirected back to the application with an authorization code, which is exchanged for an ID token and access token.
 
-This project requires Android Studio (Arctic Fox 2020.3.1)
+This project requires Android Studio (Arctic Chipmunk 2021.2.1)
+
+This project uses the [okta-mobile-kotlin](https://github.com/okta/okta-mobile-kotlin) SDK.
+
+# Guide
+
+Follow the [guide](https://developer.okta.com/docs/guides/sign-into-mobile-app-redirect/android/main/) on developer.okta.com.
 
 ## Prerequisites
 

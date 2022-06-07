@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Browser sign in</string>
-    <string name="sign_in_btn">Sign in</string>
-    <string name="sign_out_btn">Sign out</string>
+    <string name="login_button">Login</string>
+    <string name="logout_of_browser_button">Logout of Browser</string>
     <string name="have_account">Have an account?</string>
-    <string name="welcome_user">Welcome </string>
+    <string name="welcome_user">Welcome %1$s</string>
 </resources>

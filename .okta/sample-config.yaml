@@ -6,7 +6,7 @@ oauthClient:
   applicationType: native
 
 directions: |+2
-  Okta configuration written to: app/src/main/res/raw/okta_oidc_config.json
+  Okta configuration written to: okta.properties
   Run instructions for Android studio:
     • configure an Android virtual device (emulator) or connect a real device to Android Studio
     • run the application using 'Shift+F10' on Windows/Linux, 'Control+R' on macOS, or click 'Run' button in the toolbar.
