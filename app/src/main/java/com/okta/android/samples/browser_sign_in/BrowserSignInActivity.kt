@@ -26,11 +26,10 @@ class BrowserSignInActivity : AppCompatActivity() {
         }
 
         /**
-         * Observe the [BrowserSignInViewModel]s [BrowserState] for changes.
+         * Update the user interface for changes in the sign-in flow.
          *
-         * Changes are initialized by the button clicks above, and happen asynchronously once the user completes the flows.
-         *
-         * Once the change occurs, show the user the correct UI.
+         * Use an observer to react to updates in [BrowserState]. Updates are asynchronous and are triggered both by user actions,
+         * such as button clicks, and completing the flow.
          */
         viewModel.state.observe(this) { state ->
             when (state) {

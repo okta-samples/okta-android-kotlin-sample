@@ -7,6 +7,6 @@ oauthClient:
 
 directions: |+2
   Okta configuration written to: okta.properties
-  Run instructions for Android studio:
-    • configure an Android virtual device (emulator) or connect a real device to Android Studio
-    • run the application using 'Shift+F10' on Windows/Linux, 'Control+R' on macOS, or click 'Run' button in the toolbar.
+  Run the app in Android Studio:
+    • Create a target for the app by either configuring a Android virtual device (emulator) or connecting a physical device.
+    • Run the app by clicking the Run button in the toolbar.
