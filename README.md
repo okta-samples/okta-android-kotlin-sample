@@ -2,7 +2,7 @@
 
 Authenticate a user using the Redirect model in your Kotlin Android app using the Okta Android SDK.
 
-The app launches a sign-in view hosted by Okta that handles the authorization flow. Control is returned to the app once the user finishes the flow. An authorization code is returned to the app after a successful sign on. This code is then exchanged for ID and access tokens.
+The app launches a sign-in view hosted by Okta that handles the authorization using Authorization Code Flow + PKCE. Control is returned to the app once the user finishes the flow. An authorization code is returned to the app after a successful sign on. This code is then exchanged for ID and access tokens.
 
 Using this project requires:
 - Android Studio (Arctic Chipmunk 2021.2.1)
