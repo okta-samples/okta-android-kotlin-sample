@@ -1,4 +1,4 @@
-# Redirect login for Android(Kotlin)
+# Redirect sign in for Android (Kotlin)
 
 Authenticate a user using the Redirect model in your Kotlin Android app using the Okta Android SDK.
 
