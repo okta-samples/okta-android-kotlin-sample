@@ -24,13 +24,13 @@ Before running this sample, you will need the following:
 
 ## Get the Code
 
-Grab and configure this project using `okta start android-java`.
+Grab and configure this project using `okta start android-kotlin`.
 
 You can also clone this project from GitHub and run `okta start` in it.
 
 ```bash
-git clone https://github.com/okta-samples/okta-android-java-sample.git
-cd okta-android-java-sample
+git clone https://github.com/okta-samples/okta-android-kotlin-sample.git
+cd okta-android-kotlin-sample
 okta start
 ```
 
