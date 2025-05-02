@@ -1,0 +1,31 @@
+[versions]
+activityKtx = "1.10.1"
+agp = "8.9.1"
+appcompat = "1.7.0"
+constraintlayout = "2.2.1"
+desugar_jdk_libs = "2.1.5"
+gradle = "8.7.3"
+kotlin = "2.0.21"
+kotlinGradlePlugin = "1.9.25"
+kotlinStdlibVersion = "1.9.25"
+lifecycleViewmodelKtx = "2.8.7"
+material = "1.12.0"
+r8 = "8.7.18"
+timber = "5.0.1"
+
+[libraries]
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlin-stdlib-v1925 = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinStdlibVersion" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+okta-auth-foundation-bootstrap = { module = "com.okta.kotlin:auth-foundation-bootstrap" }
+okta-web-authentication-ui = { module = "com.okta.kotlin:web-authentication-ui" }
+r8 = { module = "com.android.tools:r8", version.ref = "r8" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+
+
