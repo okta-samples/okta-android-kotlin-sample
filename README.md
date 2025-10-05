@@ -22,7 +22,7 @@ Before running this sample, you will need the following:
 1. Go to **Applications > Applications**
 2. Click **Create App Integration**
 3. Select **OIDC - OpenID Connect** as the sign-in method
-4. Select **Web Application** as the application type, then click **Next**
+4. Select **Native Application** as the application type, then click **Next**
 5. Enter an app integration name, e.g. `My Android Kotlin Sample App`
 6. Configure the redirect URIs:
 - For the redirect URIs you will use the "reverse domain" of your Okta organization URL.
